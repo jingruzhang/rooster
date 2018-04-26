@@ -21,7 +21,10 @@ class ProductionsContainer extends Component {
     });
 
     return (
-      <div>{productionsList}</div>
+      <div>
+      <h1>Productions:</h1>
+      {productionsList}
+      </div>
     );
   };
 };

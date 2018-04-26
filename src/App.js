@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ProductionsContainer from './components/ProductionsContainer';
+import InstrumentsContainer from './components/InstrumentsContainer';
 
 class App extends Component {
   render() {
@@ -12,9 +13,10 @@ class App extends Component {
           <h1 className="App-title">Welcome to Rooster</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started...
         </p>
-        <ProductionsContainer /> 
+        <ProductionsContainer />
+        <InstrumentsContainer />
       </div>
     );
   }
